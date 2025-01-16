@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoScore - CO₂-Rechner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>EcoScore</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Startseite</a></li>
+                    <li><a href="calculator.html">CO₂-Rechner</a></li>
+                    <li><a href="tips.html">Tipps</a></li>
+                    <li><a href="about.html">Über uns</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="calculator">
+            <div class="container">
+                <h2>CO₂-Rechner</h2>
+                <form id="quiz-form">
+                    <div class="question">
+                        <label for="question1">Wie oft nutzt du öffentliche Verkehrsmittel pro Woche?</label>
+                        <select id="question1" name="question1">
+                            <option value="0">Nie</option>
+                            <option value="1-3">1-3 Mal</option>
+                            <option value="4-6">4-6 Mal</option>
+                            <option value="7+">Täglich</option>
+                        </select>
+                    </div>
+                    <div class="question">
+                        <label for="question2">Wie häufig kaufst du neue Kleidung pro Monat?</label>
+                        <select id="question2" name="question2">
+                            <option value="0">Nie</option>
+                            <option value="1-2">1-2 Mal</option>
+                            <option value="3-4">3-4 Mal</option>
+                            <option value="5+">Mehr als 5 Mal</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn">Ergebnis anzeigen</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 EcoScore. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+</body>
+</html>
