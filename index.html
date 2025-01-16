@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EcoScore - Berechnung des CO₂-Fußabdrucks für Jugendliche in der Schweiz">
+    <title>EcoScore - Dein CO₂-Fußabdruck</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>EcoScore</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Startseite</a></li>
+                    <li><a href="#calculator">CO₂-Rechner</a></li>
+                    <li><a href="#tips">Tipps</a></li>
+                    <li><a href="#about">Über uns</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Berechne deinen CO₂-Fußabdruck</h2>
+                <p>Mach den Unterschied für eine nachhaltige Zukunft! Mit unserem interaktiven Tool kannst du herausfinden, wie klimafreundlich dein Lebensstil ist.</p>
+                <a href="#calculator" class="btn">Jetzt starten</a>
+            </div>
+        </section>
+        <section id="calculator" class="calculator">
+            <div class="container">
+                <h2>CO₂-Rechner</h2>
+                <form id="quiz-form">
+                    <div class="question">
+                        <label for="question1">Wie oft nutzt du öffentliche Verkehrsmittel pro Woche?</label>
+                        <select id="question1" name="question1">
+                            <option value="0">Nie</option>
+                            <option value="1-3">1-3 Mal</option>
+                            <option value="4-6">4-6 Mal</option>
+                            <option value="7+">Täglich</option>
+                        </select>
+                    </div>
+                    <div class="question">
+                        <label for="question2">Wie häufig kaufst du neue Kleidung pro Monat?</label>
+                        <select id="question2" name="question2">
+                            <option value="0">Nie</option>
+                            <option value="1-2">1-2 Mal</option>
+                            <option value="3-4">3-4 Mal</option>
+                            <option value="5+">Mehr als 5 Mal</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn">Ergebnis anzeigen</button>
+                </form>
+            </div>
+        </section>
+        <section id="tips" class="tips">
+            <div class="container">
+                <h2>Tipps zur CO₂-Reduktion</h2>
+                <ul>
+                    <li>Nutze öffentliche Verkehrsmittel oder das Fahrrad statt des Autos.</li>
+                    <li>Kaufe Second-Hand-Produkte und vermeide Fast Fashion.</li>
+                    <li>Reduziere deinen Fleischkonsum und setze auf regionale Lebensmittel.</li>
+                </ul>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="container">
+                <h2>Über uns</h2>
+                <p>EcoScore ist ein Projekt, das Jugendliche dazu inspiriert, klimafreundlicher zu leben. Unser interaktives Tool hilft dir, deinen CO₂-Fußabdruck zu verstehen und zu verbessern.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 EcoScore. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+</body>
+</html>
